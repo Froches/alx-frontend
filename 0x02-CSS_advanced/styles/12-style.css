@@ -29,18 +29,17 @@ a {
     color: var(--color-primary);
 }
 
+.section-header {
+    text-align: var(--section-header-align);
+}
+
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
-    background-color: var(--section-title-color);
+    color: var(--section-title-color);
 }
-
-.section-header {
-    text-align: var(--section-header-align);
-}
-
 .section-tagline {
     color: var(--color-primary);
     font-family: var(--font-family-title);
@@ -57,7 +56,6 @@ a {
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color:var(--color-black);
-    --section-title-color: var(--color-black)
     /* font family */
     --font-family-base: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
     --font-family-title: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -74,8 +72,9 @@ a {
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
-    /* more custom properties */
+    /* section titles */
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
+    --section-title-color: var(--color-black);
 }
