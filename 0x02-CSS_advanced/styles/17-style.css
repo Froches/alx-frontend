@@ -383,6 +383,7 @@
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
+    /* paddings */
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-body-padding: 0 0 3rem;
@@ -445,7 +446,7 @@ a:active {
 }
 
 .section-body {
-    padding: var(--section-footer-padding);
+    padding: var(--section-body-padding);
 }
 
 .section-footer {
